@@ -1,3 +1,4 @@
+
 var contacts = [
   {
     id: 1,
@@ -20,9 +21,9 @@ var contacts = [
 ];
 
 var contactForm = {
-  firstName: '',
+  firstName: '', 
   lastName: '',
-  email: ''
+  email: '',
 };
 
  App = React.createClass({
@@ -34,3 +35,6 @@ var contactForm = {
     </div>);
   }
 });
+
+
+

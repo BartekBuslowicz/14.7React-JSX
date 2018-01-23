@@ -1,4 +1,4 @@
-var ContactForm = React.createClass({
+ ContactForm = React.createClass({
   propTypes: {
     contact: React.PropTypes.object.isRequired
   },
@@ -15,5 +15,5 @@ var ContactForm = React.createClass({
               <button className={'btn btn-primary'} type={'submit'}>Dodaj kontakt</button>
             </form>
           );
-  },
-})
+    },
+});
