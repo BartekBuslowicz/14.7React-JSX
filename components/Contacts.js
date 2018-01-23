@@ -7,11 +7,12 @@ Contacts = React.createClass({
     var contacts = this.props.items.map(function(contact) {
         return 
           <Contact item={contact} key={contact.id}></Contact>
-          console.log(Contact)
+          console.log('Contact')
     });
 
     return (
       <ul className={'contactsList'}>{contacts}</ul>
+      console.log('Contact')
     );
   }
 });
