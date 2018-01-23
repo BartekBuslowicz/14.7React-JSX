@@ -25,12 +25,11 @@ var contactForm = {
   email: ''
 };
 
-var App = React.createClass({
+App = React.createClass({
   render: function() {
-    return(
-      <div className={'app'}>
-        <ContactForm contact={contactForm} />
-        <Contacts items={contacts}/>
-     </div>
-  },
+    return( <div className={'app'}>
+      <ContactForm contact={contactForm}></ContactForm>
+      <Contacts items={contacts}></Contacts>
+    </div>);
+  }
 });
