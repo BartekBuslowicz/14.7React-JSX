@@ -13,4 +13,4 @@ ContactForm = React.createClass({
         </form>
     );
   },
-})
+});
