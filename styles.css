@@ -1,54 +1,57 @@
+* {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
 
-body {
-	max-width: 1200px;
+.contactForm {
+	display: block;
 	margin: 0 auto;
+	width: 500px;
+	height: 100px;
+	padding: 50px;
+	border: 1px solid black;
 }
-
-form {
-	border: 1px solid grey;
+.contactForm input {
+	border: none;
+	padding: 20px;
+	margin-left: 20px;
+	border-bottom: 1px solid grey;
+}
+.contactForm button {
+	height: 50px;
+	width: 210px;
+	background-color: #72A7FC;
+	border-radius: 5px;
+	border: none;
 	margin: 20px;
-	display:flex;
-	flex-direction:row;
-	align-items: center;
-	justify-content: center;
-	padding: 20px 0;
-	max-width: 850px;
 }
-
-form>input {
-	margin-right: 15px;
-}
-
-button, .btn {
-	margin-left: 15px;	
-}
-
-img {
-	width: 80px;
-}
-
-.contactsList {
-	border: 1px solid grey;
-	margin: 0 20px;
-	max-width: 850px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
 .contactItem {
-	margin: 20px;
-	display:flex;
+	width: 500px;
+	height: 50px;
+	display: block;
+	margin: 20px auto;
+	background-color: #E8EAF7;
+	padding: 50px;
 }
-
-.contactItemInfo {
+.contactImage {
 	display: inline-block;
-	margin:20px;
+	height: 70px;
+	width: 70px;
+	padding:20px;
+	position: relative;
+	top: -30px;
 }
-
-h2 {
-	text-align:center;
-	margin: 0 20px;
-	max-width: 850px;
-	padding-top: 20px;
-	padding-bottom: 5px;
+.contactLabel {
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 20px;
+	position: relative;
+	top: -100px;
+}
+.contactEmail {
+	display: block;
+	position: relative;
+	top: -70px;
+	left: 150px;
 }
