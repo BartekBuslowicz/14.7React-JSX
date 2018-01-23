@@ -4,7 +4,6 @@ var Contact = React.createClass({
   },
 
   render: function() {
-    console.log('getInitialState - Ustawianie domyślnych stanów');
     return (
       <div className={'contactItem'}>
           <img className={'contactImage'} src={'http://icons.veryicon.com/ico/System/100%20Flat%20Vol.%202/contacts.ico'}/>
